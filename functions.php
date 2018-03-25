@@ -274,7 +274,7 @@ function lazyload($content)
     $rand = rand();
     $url = get_template_directory_uri()();
     if (!is_feed() || !is_robots) {
-        $content = preg_replace('/<img(.+)src=[\'"]([^\'"]+)[\'"](.*)>/i', "<img \$1data-original=\"\$2\" src=\"$url//images/loading.jpg\"\$3>\n<noscript>\$0</noscript>", $content);
+        $content = preg_replace('/<img(.+)src=[\'"]([^\'"]+)[\'"](.*)>/i', "<img \$1data-original=\"\$2\" src=\"$url/images/loading.jpg\"\$3>\n<noscript>\$0</noscript>", $content);
     }
     return $content;
 }
