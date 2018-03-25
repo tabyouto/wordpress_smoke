@@ -6,3 +6,5 @@ yarn-debug.log*
 yarn-error.log*
 .idea
 /build/
+/scss/*.css*
+style.css.map
