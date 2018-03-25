@@ -1,0 +1,28 @@
+{
+  "name": "smoke",
+  "version": "1.0.0",
+  "description": "wordpress theme",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabyouto/noxxxx.git"
+  },
+  "keywords": [
+    "theme",
+    "wordpress"
+  ],
+  "author": "xknife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tabyouto/noxxxx/issues"
+  },
+  "homepage": "https://github.com/tabyouto/noxxxx#readme",
+  "dependencies": {
+    "github-markdown-css": "^2.10.0",
+    "lightbox2": "^2.10.0",
+    "normalize.css": "^8.0.0"
+  }
+}
